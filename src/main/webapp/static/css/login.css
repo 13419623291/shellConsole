@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+}
+
+.contant {
+  overflow-y: hidden;
+}
+
+.left {
+  display: inline-block;
+  width: 60%;
+  min-height: 500px;
+  float: left;
+}
+
+.left .con-box {
+  text-align: right;
+}
+
+.left img {
+  min-height: 388px;
+  margin-right: 100px;
+}
+
+.right {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  min-height: 450px;
+}
+
+.con-box {
+  text-align: center;
+  height: 100%;
+}
+
+.language {
+  position: absolute;
+  display: inline-block;
+  top: 30px;
+  right: 30px;
+}
+
+.language > a {
+  background: none !important;
+  padding: 2px 8px;
+}
+
+.language.open .dropdown-toggle.btn {
+  background: none;
+}
+
+.language .dropdown-menu {
+  min-width: auto;
+}
+
+.login-w {
+  width: 300px;
+  text-align: right;
+  margin-left: 100px;
+  /*margin: 0 auto;*/
+}
+
+.login {
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  width: 96px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 55px;
+  /*border-bottom: 3px solid #5194FA;*/
+  /*background: url('../img/index-title.png') no-repeat;*/
+}
+
+.title:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 77px;
+  height: 4px;
+  background: #5194FA;
+}
+
+.weather {
+  position: absolute;
+  width: 30px;
+  right: -35px;
+  top: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+input:-moz-placeholder {
+  color: #bbb;
+}
+
+input::-moz-placeholder {
+  color: #bbb;
+}
+
+input:-ms-input-placeholder {
+  color: #bbb;
+}
+
+.input-g p {
+  border-bottom: 1px solid #BABABA;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.input-g p input {
+  display: inline-block;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  color: #bbb;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  text-indent: 20px;
+  border: 1px solid transparent;
+}
+
+.input-g p input:focus, .input-g p input:active {
+  border: 1px solid #2aabd2;
+  text-align: center;
+  text-indent: 0;
+  box-shadow: 2px 2px 2px #2577F8;
+  border-radius: 3px;
+}
+
+a.log-ssh, a.log-ftp {
+  display: inline-block;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  background: #4d93fd;
+  cursor: pointer;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+a.log-ftp:hover, a.log-ssh:hover {
+  background: #1774FC;
+  box-shadow: 0 3px 1px #ccc;
+}
